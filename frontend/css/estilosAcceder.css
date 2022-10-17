@@ -1,0 +1,204 @@
+body {
+    margin: 0px;
+    background: #1e242a;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    overflow: hidden;
+}
+
+#box1 {
+    width: 530px;
+    height: 625px;
+    background-image: url('../img/1.png');
+    position: absolute;
+    bottom: -100%;
+    left: 30%;
+    animation: anim 2s forwards, anim2 3s forwards 3s;
+}
+
+#box1:after {
+    content: "";
+    position: absolute;
+    width: 530px;
+    height: 625px;
+    background-image: url('../img/2.png');
+    left: 0px;
+    z-index: -1;
+}
+
+@keyframes anim {
+    from{
+        bottom: -100%;
+    }
+    to {
+        bottom: 0%;
+    }
+}
+
+@keyframes anim2 {
+    from {
+        left: 30%;
+        width: 530px;
+    }
+    to {
+        width: 0px;
+        left: 50%;
+    }
+}
+
+#box3 {
+    overflow: hidden;
+}
+
+#container {
+    width: 100%;
+    position: absolute;
+    top: -100%;
+    animation: anim4 2s forwards 2.5s;
+}
+
+#logo {
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#logo img{
+    width: 100px;
+}
+
+#menu {
+    font-family: "Behnschrift Condensed";
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-right: 150px;
+    margin-top: 20px;
+    float: right;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@keyframes anim4 {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0%;
+    }
+}
+
+
+/* FORMULARIO */
+
+
+
+.formulario_ing{
+	width: 400px;
+	margin: auto;
+	margin-top: 140px;
+	padding: 20px;
+	box-shadow: 0 0 1px 1px rgb(12, 12, 12);
+	position: relative;
+	background: rgba(255,255,255, 0);
+	border-radius: 12px;
+	margin-left: 100px;
+	border: 3px solid rgba(19, 18, 18, 0.5);
+    animation: anim3 2s forwards 3s;
+    left: -100%;
+}
+
+@keyframes anim3 {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+
+
+.info_h2{
+	text-align: center;
+	margin-top: 0;
+	color: #fff;
+    font-family: "Behnschrift Condensed";
+    font-size: 34px;
+    letter-spacing: 3px;
+}
+
+.data{
+	display: block;
+	padding: 10px;
+	width: 91%;
+	margin: 30px 0px;
+	font-size: 17px;
+	border: none;
+    font-family: "Behnschrift Condensed";
+}
+
+.send{
+    display: block;
+    /* width: 30%; */
+    padding: 10px 20px;
+    font-size: 15px;
+	background: rgb(24, 22, 22);
+	border:0;
+	cursor: pointer;
+	border-radius: 0px;
+    margin: 30px 0px;
+	margin-bottom: 0;
+	opacity: 0.7;
+	transition: .8s ease-out;
+	color: #fff;
+    font-family: "Behnschrift Condensed";
+
+}
+.send:hover{
+	opacity: 1;
+	border-radius: 10px;
+	background: rgb(10, 6, 6)
+}
+
+.register {
+	text-align: center;
+	font-weight: 900;
+	color: rgb(202, 202, 202);
+	font-size: 20px;
+}
+
+.new_register {
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+	color: rgb(202, 202, 202);
+}
+
+.new_register:hover {
+	color: rgb(162, 162, 173);
+	transition-duration: .5s;
+}
+
+.enlace_regresarForm {
+	margin-top: 15px;
+	text-decoration: none;
+	font-size: 19px;
+	text-align: center;
+	font-weight: 800;
+	color: rgb(16, 15, 15);
+} 
