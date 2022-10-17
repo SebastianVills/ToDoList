@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo List</title>
-    <link rel="stylesheet" href="css/estilosInicio.css">
+    <link rel="stylesheet" href="css/stylesHome.css">
 </head>
 <body>
 
@@ -27,9 +27,9 @@
                 </div>
                 <div id="menu">
                     <ul>
-                        <li><a href="index.php">Inicio</a></li>
-                        <li><a href="acceder.php">Acceder</a></li>
-                        <li><a href="registrar.php">Registrarse</a></li>
+                    <li><a href="home.php">Inicio</a></li>
+                        <li><a href="access.php">Acceder</a></li>
+                        <li><a href="register.php">Registrarse</a></li>
                     </ul>
                 </div>
             </div>
