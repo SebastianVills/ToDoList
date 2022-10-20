@@ -20,7 +20,7 @@
         </div>
 
         <!-- ESTRUCTURA DEL ENCABEZADO -->
-        <div id = "box3">
+        <!-- <div id = "box3">
             <div id="container">
                 <div id="logo">
                     <img src="img/logoLargo.png" alt="">
@@ -33,7 +33,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </body>
 </html>
