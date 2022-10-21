@@ -14,3 +14,4 @@ DOCUMENTACION
 
 -Creacion del header dinamico y del header estatico ya sea un usuario  o no sea usuario
 
+-Correccion de errores por sesion iniciada, creacion del archivo cerrar sesion al igual que el rediccionamiento al inicio del header estatico

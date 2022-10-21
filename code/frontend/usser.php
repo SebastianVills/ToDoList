@@ -4,6 +4,8 @@ session_start();
 
 ?>
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +16,11 @@ session_start();
     <link rel="stylesheet" href="css/stylesUsser.css">
 </head>
 <body>
+
+    <!-- ESTRUCTURA DEL ENCABEZADO -->
+    <?php
+            include("../php/session.php");
+    ?>
 
     <main>
         <div class="main-content">

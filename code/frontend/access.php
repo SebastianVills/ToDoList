@@ -12,20 +12,9 @@
         <div id="box1"></div>
 
         <!-- ESTRUCTURA DEL ENCABEZADO -->
-        <div id="box3">
-            <div id="container">
-                <div id="logo">
-                    <img src="img/logoLargo.png" alt="">
-                </div>
-                <div id="menu">
-                    <ul>
-                        <li><a href="home.php">Inicio</a></li>
-                        <li><a href="access.php">Acceder</a></li>
-                        <li><a href="register.php">Registrarse</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <?php
+            include("../php/session.php");
+        ?>
     </div>
 
     <!-- FORMULARIO -->
