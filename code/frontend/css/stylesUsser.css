@@ -73,7 +73,6 @@ main {
     height: 60px;
     cursor: pointer;
     border: 1px solid white;
-    color: white;
     text-transform: uppercase;
     background-color: transparent;
     font-weight: bold;
@@ -81,6 +80,11 @@ main {
     border-radius: 20px;
     position: relative;
     transition: 1.5s;
+}
+
+.btns button a{
+    text-decoration: none;
+    color: white
 }
 
 .btns button:hover {
@@ -104,3 +108,4 @@ main {
 .btns button:hover:before {
     width: 100%;
 }
+

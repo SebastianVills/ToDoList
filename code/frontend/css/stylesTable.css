@@ -1,0 +1,158 @@
+/*
+	Color fondo: #632432;
+	Color header: 246355;
+	Color borde: 0F362D;
+	Color iluminado: 369681;
+*/
+
+/* ESTILOS DEL INICIO */
+
+body {
+    margin: 0px;
+    background: #1e242a;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    overflow: hidden;
+}
+
+
+.container-task {
+    display: flex;
+}
+
+
+/* FORMULARIO */
+
+
+
+.form{
+	width: 400px;
+	margin: auto;
+	margin-top: 140px;
+	padding: 20px;
+	box-shadow: 0 0 1px 1px rgb(12, 12, 12);
+	position: relative;
+	background: rgba(255,255,255, 0);
+	border-radius: 12px;
+	margin-left: 100px;
+	border: 3px solid rgba(19, 18, 18, 0.5);
+}
+
+
+
+.info_h2{
+	text-align: center;
+	margin-top: 0;
+	color: #fff;
+    font-family: "Behnschrift Condensed";
+    font-size: 34px;
+    letter-spacing: 3px;
+}
+
+.info_h4 {
+    font-size: 24px;
+}
+
+.info_h6 {
+    font-size: 14px;
+}
+
+.data{
+	display: block;
+	padding: 10px;
+	width: 91%;
+	margin: 30px 0px;
+	font-size: 17px;
+    font-family: "Behnschrift Condensed";
+    background-color: #42464b;
+
+}
+
+.data::placeholder {
+
+    color:rgb(202, 202, 202);
+}
+
+.send{
+    display: block;
+    padding: 10px 20px;
+    font-size: 15px;
+	background: #42464b;
+	border: 2px solid #606469;
+	cursor: pointer;
+	border-radius: 0px;
+    margin: 30px 0px;
+	margin-bottom: 0;
+	opacity: 0.7;
+    transition-duration: .5s;
+	color: #fff;
+    font-family: "Behnschrift Condensed";
+
+}
+.send:hover{
+	opacity: 1;
+	border-radius: 5px;
+	background: rgb(20, 19, 19);
+}
+
+.send-before {
+    width: 27%;
+    text-decoration: none;
+}
+
+
+
+/* TABLA */
+
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 50%;
+    margin: auto;
+    margin-top: 40%;
+    /* margin-left: 30%; */
+}
+
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #42464b;
+	border-bottom: solid 5px #101413;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+
+.send{
+    display: block;
+    padding: 10px 20px;
+    font-size: 15px;
+	background: #42464b;
+    border: 2px solid #606469;
+	cursor: pointer;
+	border-radius: 0px;
+    margin: 30px 0px;
+	margin-bottom: 0;
+	opacity: 0.7;
+	color: #fff;
+    font-family: "Behnschrift Condensed";
+    text-decoration: none;
+
+}
+.send:hover{
+	opacity: 1;
+	border-radius: 5px;
+	background: rgb(0, 0, 0);
+}

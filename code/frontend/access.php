@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Acceder</title>
 	<link rel="stylesheet" href="css/stylesAccess.css">
+	<link rel="stylesheet" href="css/stylesNavigationS-noS.css">
 
 </head>
 <body>

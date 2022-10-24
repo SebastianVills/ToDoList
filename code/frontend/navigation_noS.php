@@ -18,8 +18,8 @@
             <div id="menu">
                 <ul>
                     <li><a href="home.php">Inicio</a></li>
-                    <li><a href="usser.php">Acceder</a></li>
-                    <li><a href="../php/close_session.php">Registrarse</a></li>
+                    <li><a href="access.php">Acceder</a></li>
+                    <li><a href="register.php">Registrarse</a></li>
                 </ul>
             </div>
         </div>
