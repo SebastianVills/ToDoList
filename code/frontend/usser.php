@@ -28,7 +28,7 @@ session_start();
             <h2 class="second-text">Bienvenido a su Panel de la App</h2>
             <div class="btns">
                 <button class="btn-exp"><a href="../php/close_session.php" class="btn-exp">Cerrar Sesión</a></button>
-                <button class="btn-personal"><a href="app/homeApp.php" class="btn-personal">Ir a tareas</a></button>
+                <button class="btn-personal"><a href="#" class="btn-personal">Ir a tareas</a></button>
                 
             </div>
         </div>
